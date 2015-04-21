@@ -6,5 +6,5 @@ setup(name='pbf_knot',
       author='', # Add your name here
       author_email='', # Add your e-mail here
       packages=['pbf_knot', 'pbf_knot.Commands', 'pbf_knot.templates'],
-      #package_data = {'pbf_knot.templates':[]}, # Add template files
+      package_data = {'pbf_knot.templates':['app.knot-app', 'knot-pkg.json']},
      )
